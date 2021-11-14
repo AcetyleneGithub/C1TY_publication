@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+
+<title>早押しクイズゲーム</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="score.css">
+<meta name="theme-color" content="#fafafa">
+<script type="text/javascript" src="eel.js"></script>
+</head>
+<body>
+<h1>QUIZ GAME</h1>
+<h2 id="text_qn">ここに問題が表示されます</h2>
+<div id="text_q"></div>
+<!-- <h2>選択肢</h2> -->
+<p>
+<div id="text_s"></div>
+</p>
+
+<h2 id = "text_k">Are you ready?</h2>
+
+<!-- <h2>解答</h2> -->
+<div id="text_a"></div>
+
+<table>
+<tr>
+<th>
+<div id="container"><p1 class="playernames"><input type="text" placeholder="A0使用者" id="per0"></p1>
+  <div id="number">0</div>
+  <button id="increment">+</button><button id="decrement">-</button>
+</div>
+</th>
+<th>
+<div id="containers"><p2 class="playernames"><input type="text" placeholder="A1使用者" id="per1"></p2>
+  <div id="numbers">0</div>
+  <button id="increments">+</button><button id="decrements">-</button>
+</div>
+</th>
+</tr>
+</table>
+
+<div id="text-button"><p id="text">ゲームスタート！</p></div>
+<!--
+<table>
+<tr>
+<th colspan="2">しきい値</th>
+</tr>
+<tr>
+<td>
+<div id="botcontainer"><p1 id="leftstatus"></p1>
+  <input type="text" id="thre" pattern="^-?\d{1,}\.\d*$" value="100">
+  <button>自動調整</button>
+</div>
+</td>
+<td>
+<div id="botcontainers"><p2 id="rightstatus"></p2>
+  <input type="text" id="thres" pattern="^-?\d{1,}\.\d*$" value="100">
+  <button>自動調整</button>
+</div>
+</td>
+</tr>
+</table>
+-->
+
+<script type="text/javascript" src="scoreshows.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body{
+	text-align:center;
+}
+
+h1{
+	color:white;
+	background: navy;
+	text-align:center;
+	margin-top:0px;
+}
+
+h2 {
+	text-align:center;
+}
+
+
+#text_q {
+	margin:0 auto;
+	width:75%;
+	text-align:center;
+	display: block; 
+	font-size:2pc;
+	font-weight:bold;
+}
+
+#text_s {
+  text-align:center;
+}
+
+
+#text_a {
+  text-align:center;
+  font-size:22px;
+  height:24px;
+}
+
+.text-buttons{
+	padding: 0.5em 1em;
+ 	margin: 10px;
+ 	font-weight: bold;
+ 	color: #6091d3;/*文字色*/
+ 	background: #FFF;
+ 	border: solid 3px #6091d3;/*線*/
+	border-radius: 10px;/*角の丸み*/
+}
+
+#text-button {
+	width: 30%;
+	padding: 0.5em 1em;
+ 	margin: 0 auto;
+ 	font-weight: bold;
+ 	color: #6091d3;/*文字色*/
+ 	background: #FFF;
+ 	border: solid 3px #6091d3;/*線*/
+	border-radius: 10px;/*角の丸み*/
+
+}
+
+.text-buttons:hover,#text-button:hover{
+	background:#6091d3;
+	color:#FFF;
+}
+
+#text-button p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+#container,#containers{
+  width: 12pc;
+  margin: 2em 0;
+  background: #dcefff;
+}
+
+#botcontainer,#botcontainers{
+	width: 12pc;
+	margin: 2em 0;
+	background: #FFE3FF;
+}
+
+.playernames{
+  font-size: 1.2em;
+  background: #5fb3f5;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#leftstatus,#rightstatus{
+  font-size: 1em;
+  background: #ff80ff;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#number,#numbers{
+  padding: 15px 20px;
+  margin: 0;
+}
+
+input{
+	text-align:center;
+}
+
+table{
+	margin:0 auto;
+}
+
+#increment,#increments,#decrement,#decrements{
+	width:20px;
+	height:20px;
+	text-align:center;
+}
